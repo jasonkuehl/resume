@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jason Kuehl - DevOps Engineer</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #ddd;
+            background-color: #222;
+        }
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            margin: auto;
+            background: #333;
+            padding: 2rem;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            border-radius: 8px;
+            position: relative;
+            z-index: 1;
+        }
+        header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 2rem;
+            border-bottom: 2px solid #555;
+            padding-bottom: 1rem;
+            position: relative;
+        }
+        header img {
+            border-radius: 50%;
+            width: 120px;
+            height: 120px;
+            border: 4px solid #555;
+            margin-right: 1rem;
+        }
+        header .header-text {
+            flex: 1;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2rem;
+        }
+        header p {
+            margin: 0;
+            font-size: 1rem;
+            color: #bbb;
+        }
+        .social-buttons {
+            position: absolute;
+            right: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            display: flex;
+            gap: 1rem;
+        }
+        .social-buttons a {
+            text-decoration: none;
+            color: #fff;
+            background: #555;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            font-size: 0.9rem;
+            transition: background 0.3s, color 0.3s;
+        }
+        .social-buttons a:hover {
+            background: #444;
+            color: #ffcc00;
+        }
+        .section-title {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: #ddd;
+            border-bottom: 2px solid #666;
+            padding-bottom: 0.5rem;
+        }
+        .about-me, .contact-info, .experience, .projects, .education, .certifications, .volunteer-work, .skills, .languages {
+            margin-bottom: 2rem;
+        }
+        .about-me p, .contact-info p, .experience p, .projects p, .education p, .certifications p, .volunteer-work p, .skills p, .languages p {
+            margin: 0.5rem 0;
+        }
+        .job, .project, .degree, .certification, .volunteer-role {
+            margin-bottom: 1rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid #555;
+        }
+        .job h3, .project h3, .degree h3, .certification h3, .volunteer-role h3 {
+            margin: 0;
+            font-size: 1.2rem;
+        }
+        .date {
+            font-style: italic;
+            color: #bbb;
+        }
+        .skills ul, .languages ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1rem;
+        }
+        .skills ul li, .languages ul li {
+            background: #444;
+            padding: 0.5rem;
+            border-radius: 5px;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+            position: relative;
+            margin-top: 2rem;
+            border-radius: 0 0 8px 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="https://via.placeholder.com/150" alt="Jason Kuehl">
+            <div class="header-text">
+                <h1>Jason Kuehl</h1>
+                <p>Infrastructure Manager | Principal Infrastructure Engineer | Senior DevOps Engineer</p>
+            </div>
+            <div class="social-buttons">
+                <a href="https://github.com/jasonwkuehl" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com/in/jasonwkuehl/" target="_blank">LinkedIn</a>
+                <a href="https://jasonkuehl.com" target="_blank">Website</a>
+            </div>
+        </header>
+
+        <section class="about-me">
+            <h2 class="section-title">About Me</h2>
+            <p>I began work in the industry as a teenager in Wisconsin and moved to Boston four years ago where I began to use data center experience in cloud environments. I have a colocation at a data center in Somerville to keep learning and practicing new emerging technologies.</p>
+        </section>
+
+        <section class="contact-info">
+            <h2 class="section-title">Contact Information</h2>
+            <p>Email: jason.w.kuehl@gmail.com</p>
+            <p>Phone: (920) 419-8983</p>
+            <p>Location: Somerville, MA, USA</p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/jasonwkuehl/" target="_blank">linkedin.com/in/jasonwkuehl</a></p>
+            <p>Portfolio: <a href="https://jasonkuehl.com" target="_blank">jasonkuehl.com</a></p>
+        </section>
+
+        <section class="experience">
+            <h2 class="section-title">Professional Experience</h2>
+            <div class="job">
+                <h3>Infrastructure Manager at Rue Gilt Groupe</h3>
+                <p class="date">July 2024 - Present (3 months)</p>
+                <ul class="list">
+                    <li>Leading infrastructure management and cloud services.</li>
+                </ul>
+            </div>
+            <div class="job">
+                <h3>Principal Infrastructure Engineer at Rue Gilt Groupe</h3>
+                <p class="date">July 2021 - July 2024 (3 years 1 month)</p>
+                <ul class="list">
+                    <li>Oversaw infrastructure projects and implemented advanced solutions in cloud environments.</li>
+                </ul>
+            </div>
+            <div class="job">
+                <h3>Senior Infrastructure Engineer at Rue Gilt Groupe</h3>
+                <p class="date">December 2018 - July 2021 (2 years 8 months)</p>
+                <ul class="list">
+                    <li>Managed and optimized AWS environments and infrastructure.</li>
+                </ul>
+            </div>
+            <div class="job">
+                <h3>Senior DevOps Engineer at SessionM</h3>
+                <p class="date">April 2018 - December 2018 (9 months)</p>
+                <ul class="list">
+                    <li>Implemented DevOps best practices and automated CI/CD pipelines.</li>
+                </ul>
+            </div>
+            <div class="job">
+                <h3>DevOps Engineer at SessionM</h3>
+                <p class="date">May 2016 - April 2018 (2 years)</p>
+                <ul class="list">
+                    <li>Automated deployments and improved infrastructure performance.</li>
+                </ul>
+            </div>
+            <div class="job">
+                <h3>Senior Infrastructure Engineer at CareCloud</h3>
+                <p class="date">August 2015 - May 2016 (10 months)</p>
+                <ul class="list">
+                    <li>Maintained a vast AWS environment with over 2000 Linux machines and multiple databases.</li>
+                </ul>
+            </div>
+            <div class="job">
+                <h3>Senior Network Engineer at Virgin Pulse</h3>
+                <p class="date">December 2013 - August 2015 (1 year 9 months)</p>
+                <ul class="list">
+                    <li>Managed network operations, Hyper-V, and Linux/Windows environments.</li>
+                </ul>
+            </div>
+            <div class="job">
+                <h3>Network Operations Supervisor at Airadigm Communications</h3>
+                <p class="date">June 2013 - December 2013 (7 months)</p>
+                <ul class="list">
+                    <li>Led network operations and managed Linux and VMware environments.</li>
+                </ul>
+            </div>
+            <div class="job">
+                <h3>Network Switch Technician II at Airadigm Communications</h3>
+                <p class="date">June 2012 - June 2013 (1 year 1 month)</p>
+                <ul class="list">
+                    <li>GSM Network Management and VMware ESX environment maintenance.</li>
+                </ul>
+            </div>
+            <div class="job">
+                <h3>Network Switch Technician I at Airadigm Communications</h3>
+                <p class="date">July 2010 - June 2012 (2 years)</p>
+                <ul class="list">
+                    <li>Managed carrier testing and cellular network deployments.</li>
+                </ul>
+            </div>
+            <div class="job">
+                <h3>Adjunct Instructor at ITT Technical Institute</h3>
+                <p class="date">June 2012 - December 2013 (1 year 7 months)</p>
+                <ul class="list">
+                    <li>Taught courses on servers, networks, and business standards to new professionals.</li>
+                </ul>
+            </div>
+            <div class="job">
+                <h3>IT Security Intern at Oshkosh Corporation</h3>
+                <p class="date">January 2010 - April 2010 (4 months)</p>
+                <ul class="list">
+                    <li>Performed vulnerability assessments and maintained IDS on a corporate scale.</li>
+                </ul>
+            </div>
+            <div class="job">
+                <h3>PC/Network Technician at Anettec INC</h3>
+                <p class="date">June 2007 - January 2010 (2 years 8 months)</p>
+                <ul class="list">
+                    <li>Handled computer repair and network/server redeployments.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="education">
+            <h2 class="section-title">Education</h2>
+            <div class="degree">
+                <h3>Bachelor in Information Systems Security</h3>
+                <p class="date">2007 - 2011 (4 years)</p>
+                <p>ITT TECH Green Bay, WI</p>
+            </div>
+            <div class="degree">
+                <h3>High School Diploma</h3>
+                <p class="date">2004 - 2007 (3 years)</p>
+                <p>New London High School, WI</p>
+            </div>
+        </section>
+
+        <section class="certifications">
+            <h2 class="section-title">Certifications</h2>
+            <div class="certification">
+                <h3>AWS Certified Solutions Architect</h3>
+                <p class="date">March 2021</p>
+            </div>
+            <div class="certification">
+                <h3>Certified Kubernetes Administrator (CKA)</h3>
+                <p class="date">November 2020</p>
+            </div>
+        </section>
+
+        <section class="volunteer-work">
+            <h2 class="section-title">Volunteer Work</h2>
+            <div class="volunteer-role">
+                <h3>Manager Of Information Technology at Artisan's Asylum, Inc.</h3>
+                <p class="date">May 2018 - May 2020 (2 years 1 month)</p>
+                <p>Managed IT operations for a non-profit makerspace, improving infrastructure and supporting a large community of makers.</p>
+            </div>
+            <div class="volunteer-role">
+                <h3>IT Shop Lead at Artisan's Asylum, Inc.</h3>
+                <p class="date">May 2016 - February 2018 (1 year 10 months)</p>
+            </div>
+            <div class="volunteer-role">
+                <h3>President at Artisan's Asylum, Inc.</h3>
+                <p class="date">November 2016 - April 2017 (6 months)</p>
+            </div>
+        </section>
+
+        <section class="skills">
+            <h2 class="section-title">Skills</h2>
+            <ul>
+                <li>Cisco Technologies</li>
+                <li>Network Design</li>
+                <li>Networking</li>
+                <li>Vmware</li>
+                <li>AWS</li>
+                <li>Terraform</li>
+                <li>Hyper-V Management</li>
+                <li>Linux/Windows Administration</li>
+            </ul>
+        </section>
+
+        <section class="languages">
+            <h2 class="section-title">Languages</h2>
+            <ul>
+                <li>English (Fluent)</li>
+            </ul>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Jason Kuehl. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
