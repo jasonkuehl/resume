@@ -68,10 +68,29 @@
             font-size: 0.9rem;
             transition: background 0.3s, color 0.3s;
         }
-        .social-buttons a:hover {
-            background: #444;
-            color: #ffcc00;
+        .social-buttons {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+            justify-content: flex-end;
+            margin-top: 1rem;
         }
+
+@media (max-width: 768px) {
+    .social-buttons {
+        position: static;     /* Remove absolute positioning on mobile */
+        justify-content: center;
+        margin-top: 1.5rem;
+    }
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+    header img {
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
+}
         .section-title {
             font-size: 1.5rem;
             margin-bottom: 1rem;
