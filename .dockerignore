@@ -1,0 +1,12 @@
+.git
+.gitea
+.github
+CNAME
+LICENSE
+license.txt
+README.md
+README.markdown
+Dockerfile
+.dockerignore
+docker-compose.yml
+*:Zone.Identifier
